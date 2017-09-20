@@ -1241,7 +1241,7 @@ Featured section style
 service section style
 ========================*/
 .service{
-    background: url(../images/background/testimonial.jpg) no-repeat center center;
+    background-color: #A9A9A9;
     background-size: cover;
     position: relative;
 }
@@ -1272,7 +1272,7 @@ Impress section style
 ========================*/
 
 .impress{
-    background:url(../images/background/work-together.jpg) no-repeat center center;
+    background-color: #ffffff;
     background-size: cover;
     position: relative;
 }
@@ -1370,6 +1370,11 @@ Skill Section style
 =======================*/
 
 /* Skill bar*/
+.skill{
+    background-color: #A9A9A9;
+    background-size: cover;
+    position: relative;
+}
 
 .teamskillbar {
     position:relative;
@@ -1408,7 +1413,7 @@ Skill Section style
 Testimonial Section style
 =======================*/
 .testimonial{
-    background: url(../images/background/testimonial.jpg) no-repeat center center;
+    background-color: #ffffff;
     background-size: cover;
     position: relative;
 }
@@ -1426,19 +1431,19 @@ Testimonial Section style
     margin: 0 auto;
 }
 .main_testimonial .testimonial_slid .slick-arrow{
-    border:1px solid #fff;
+    border:1px solid #080808;
     width:45px;
     height: 45px;
     line-height:  45px;
     text-align: center;
-    color:#fff;
+    color:#131010;
     border-radius: 50%;
     cursor: pointer;
     position: relative;
 }
 .main_testimonial .testimonial_slid .slick-arrow.nextprevleft{
     float: left;
-    top:20px;
+    top:-80px;
     left:-6%;
 }
 .testimonial_slid .slick-arrow.nextprevright{
