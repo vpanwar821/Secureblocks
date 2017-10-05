@@ -49,6 +49,7 @@ nav.navbar.bootsnav{
     border: none;
     border-bottom: solid 1px #e0e0e0;
     z-index: 9;
+    
 }
 
 nav.navbar.bootsnav ul.nav > li > a{
@@ -209,7 +210,7 @@ li.close-full-menu{
 .attr-nav{
     float: right;
     display: inline-block;
-    margin-left: 13px;
+    margin-left: 0px;
     margin-right: -15px;
 }
 

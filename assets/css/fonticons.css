@@ -504,6 +504,9 @@
 .icofont-coffee-cup:before {
 	content: "\efbf";
 }
+.icofont-coins:before {
+	content: "\ea73";
+}
 .icofont-comment:before {
 	content: "\efc0";
 }
@@ -918,8 +921,8 @@
 .icofont-life-ring:before {
 	content: "\f049";
 }
-.icofont-light-bulb:before {
-	content: "\f04a";
+.icofont-cur-bitcoin:before {
+	content: "\eaa0";
 }
 .icofont-lighter:before {
 	content: "\f04b";
@@ -1394,6 +1397,9 @@
 }
 .icofont-sun:before {
 	content: "\f0e8";
+}
+.icofont-support:before {
+	content: "\ea83";
 }
 .icofont-support-faq:before {
 	content: "\f0e9";
