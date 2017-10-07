@@ -383,7 +383,7 @@
     dotColor: '#666666',
     lineColor: '#666666',
     particleRadius: 3, // Dot size
-    lineWidth: 0.3,
+    lineWidth: 0.2,
     curvedLines: false,
     proximity: 105, // How close two dots need to be before they join
     parallax: true,

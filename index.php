@@ -260,9 +260,11 @@
             <section id="service" class="service" >
                 <div class="container">
                     <div class="row">
-                        <div class="main_service roomy-100">
+                        <div class="main_service roomy-120">
                             <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
-                                <div class="head_title text-center">
+                                <div class="head_title text-center" style="
+                                                                margin-top: -2%;
+                                                                margin-bottom: 5%;">
                                     <h2><font color="#32C9DD">OUR SERVICES</font></h2>
                                     <div class="separator_auto"></div>
                                     
@@ -275,12 +277,14 @@
                                 <div class="service_item">
                                        
                                                     <img src="assets/images/icons/ico.png" style="
-                                                    width: 29%;
+                                                    width: 30%;
                                                 ">
-                                               
+                                    <div class="ico">
                                     <h6 class="m-top-10">ICO</h6>
+                                    </div>  
                                     <div class="separator_small" style="
-                                    margin-top: 13px;
+                                    margin-top: 20px;
+                                    
                                 " ></div>
                                     <p>Initial Coin offering is the new way of crowdfunding using cryptocurrency. We have developed multiple successful ICOs and provide end-to-end ICO consulting and development.</p>
                                 </div>
@@ -291,9 +295,10 @@
                                         <img src="assets/images/icons/altcoin.png" style="
                                         margin-left: 0.1%;
                                     ">
+                                    </div>
                                     <h6 class="m-top-20">Altcoin Development</h6>
                                     <div class="separator_small"></div>
-                                    </div>
+                                    
                                     <p>All the alternative cryptocurrencies launched after the success of bitcoin are altcoins. Our time bounded altcoin solutions are always being applauded by the employer.</p>
                                 </div>
                             </div>
@@ -317,30 +322,43 @@
 
                             <div class="col-md-4">
                                 <div class="service_item">
+                                    <div class="erc">
                                         <img src="assets/images/icons/erc.png" style="
                                         margin-left: 0.1%;
+                                        margin-bottom: 3%;
+                                        margin-top: 5%;
                                     ">
-                                
-                                    <h6 class="m-top-20">ERC20 Token</h6>
+                                    </div>
+                                    <div class="m-10">
+                                    <h6>ERC20 Token</h6>
+                                    </div>
                                     <div class="separator_small"></div>
                                     <p>ERC20 (Ethereum Request for Comments) is a standard to develop the ethereum based token which can work as a cryptocurrency. We have developed numerous ERC tokens for various purposes.</p>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="service_item">
+                                    <div class="smart">
                                         <img src="assets/images/icons/smart.png">
+                                    </div>
+                                    <div class="m-10">
                                     <h6 class="m-top-20">Smart Contract</h6>
+                                    </div>
                                     <div class="separator_small"></div>
                                     <p>Smart contract is altering the way of application development. We have earned a tag of “Experts” for our smart contract solutions. We specialize in the development of smart contract according to various use cases.</p>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="service_item">
+                                
                                         <img src="assets/images/icons/consulting.png">
+                                <div class="m-10">
+                            
                                     <h6 class="m-top-20" style="
                                     margin-right: -6px;
                                     margin-left: -3px;
                                 ">Blockchain Consulting</h6>
+                                </div>
                                     <div class="separator_small"></div>
                                     <p>As blockchain is an evolving technology, there are people less familiar to it. SecureBlocks provides all kind of blockchain consulting to help the right implementation of technology.</p>
                                 </div>
