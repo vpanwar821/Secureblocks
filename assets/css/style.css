@@ -411,8 +411,10 @@ div.gallery img {
 
 @media only screen and (max-width: 700px){
     .responsive {
-        width: 49.99999%;
+        width: 33%;
         margin: 6px 0;
+        padding: 0px 0px 23px 33px;
+        margin-left: -2%;
     }
 }
 
