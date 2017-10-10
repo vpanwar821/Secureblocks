@@ -16,6 +16,10 @@
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Rye" rel="stylesheet">
+        
+        <link href="https://fonts.googleapis.com/css?family=Black+Ops+One|Graduate|Rye" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Alice|Bahiana:400,700" rel="stylesheet">
 
 
         <link rel="stylesheet" href="assets/css/slick.css">
@@ -70,7 +74,7 @@
 
                 <div class="container-new">    
                      <!-- Start Atribute Navigation -->
-    
+
                    
 
                     <!-- Start Header Navigation -->
@@ -83,9 +87,15 @@
                     " >
                             <i class="fa fa-bars"></i>
                         </button>
-                        <a class="navbar-brand" href="#brand">
+                        <a class="navbar-brand">
+                        <div class="logo logo-display">
+                        <p>SecureBlocks</p>
+                        </div>
+                        <div class="logo logo-scrolled">
+                        <p>SecureBlocks</p>
+                        </div>
 
-                            <img src="assets/images/logo.png" class="logo logo-display m-top-5" alt="" style="
+                           <!--<img src="assets/images/logo.png" class="logo logo-display m-top-5" alt="" style="
                             width: 19%;
                             margin-left: -12%;
                             margin-top: -2%;
@@ -94,7 +104,7 @@
                             width: 19%;
                             margin-left: -12%;
                             margin-top: -2%;
-                        " >
+                        " >-->
 
                         </a>
                     </div>
@@ -265,7 +275,7 @@
                                 <div class="head_title text-center" style="
                                                                 margin-top: -2%;
                                                                 margin-bottom: 5%;">
-                                    <h2><font color="#32C9DD">OUR SERVICES</font></h2>
+                                    <h2><font color="#fff">OUR SERVICES</font></h2>
                                     <div class="separator_auto"></div>
                                     
                                     <p>We have a highly enthusiastic team which is proficient in multiple blockchain related technologies. We have expertise in ethereum related concepts like ICO, ERC20 token, Escrow Contracts , Smart Contract versioning , Exchange contracts of Bancor Network , Marketplace setup etc. Our altcoin related development is always being applauded by the clients. As blockchain is in emerging state, we are regularly keeping our eye on it to make our technical arsenal more effective.</p>
@@ -275,10 +285,12 @@
 
                             <div class="col-md-4">
                                 <div class="service_item">
+                                <div class="white_circle">
                                        
                                                     <img src="assets/images/icons/ico.png" style="
                                                     width: 30%;
                                                 ">
+                                </div>
                                     <div class="ico">
                                     <h6 class="m-top-10">ICO</h6>
                                     </div>  
@@ -286,32 +298,36 @@
                                     margin-top: 20px;
                                     
                                 " ></div>
-                                    <p>Initial Coin offering is the new way of crowdfunding using cryptocurrency. We have developed multiple successful ICOs and provide end-to-end ICO consulting and development.</p>
+                                    <p>End-to-end ICO consulting and development.</p>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="service_item">
                                     <div class="altcoin">
+                                    <div class="white_circle">
                                         <img src="assets/images/icons/altcoin.png" style="
                                         margin-left: 0.1%;
                                     ">
                                     </div>
+                                    </div>
                                     <h6 class="m-top-20">Altcoin Development</h6>
                                     <div class="separator_small"></div>
                                     
-                                    <p>All the alternative cryptocurrencies launched after the success of bitcoin are altcoins. Our time bounded altcoin solutions are always being applauded by the employer.</p>
+                                    <p>Creation of alternative cryptocurrencies with wallets Development.</p>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="service_item">
+                                <div class="white_circle">
                                         <img src="assets/images/icons/enterprise.png" style="
                                         padding: 0 0px 0px 7px;
                                     ">
+                                    </div>
                                     <h6 class="m-top-20" style="
                                     margin-right: -3px;
                                 ">Enterprise Application</h6>
                                     <div class="separator_small"></div>
-                                    <p>Enterprises are being revamped with the applications based on Ethereum, IPFS and various blockchain technologies. Our user friendly applications are helping them to cope with this new technology easily.</p>
+                                    <p>Implementation of various enterprises use case with blockchain.</p>
                                  </div>
                             </div>
                         </div>
@@ -323,35 +339,41 @@
                             <div class="col-md-4">
                                 <div class="service_item">
                                     <div class="erc">
+                                    <div class="white_circle">
                                         <img src="assets/images/icons/erc.png" style="
                                         margin-left: 0.1%;
                                         margin-bottom: 3%;
                                         margin-top: 5%;
                                     ">
                                     </div>
+                                    </div>
                                     <div class="m-10">
                                     <h6>ERC20 Token</h6>
                                     </div>
                                     <div class="separator_small"></div>
-                                    <p>ERC20 (Ethereum Request for Comments) is a standard to develop the ethereum based token which can work as a cryptocurrency. We have developed numerous ERC tokens for various purposes.</p>
+                                    <p>Ethereum token development as per the ERC standards.</p>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="service_item">
                                     <div class="smart">
+                                        <div class="white_circle">
                                         <img src="assets/images/icons/smart.png">
+                                        </div>
                                     </div>
                                     <div class="m-10">
                                     <h6 class="m-top-20">Smart Contract</h6>
                                     </div>
                                     <div class="separator_small"></div>
-                                    <p>Smart contract is altering the way of application development. We have earned a tag of “Experts” for our smart contract solutions. We specialize in the development of smart contract according to various use cases.</p>
+                                    <p>Smart contract development as per the use case requirement.</p>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="service_item">
+                                    <div class="white_circle">
                                 
                                         <img src="assets/images/icons/consulting.png">
+                                    </div>
                                 <div class="m-10">
                             
                                     <h6 class="m-top-20" style="
@@ -360,7 +382,7 @@
                                 ">Blockchain Consulting</h6>
                                 </div>
                                     <div class="separator_small"></div>
-                                    <p>As blockchain is an evolving technology, there are people less familiar to it. SecureBlocks provides all kind of blockchain consulting to help the right implementation of technology.</p>
+                                    <p>Complete consulting to help the right implementation of blockchain.</p>
                                 </div>
                             </div>
                         </div>
@@ -397,76 +419,142 @@
                             
                                 <div class="responsive">
                                     <div class="gallery">
-                                            <img src="assets/images/icons/bitcoin.png" alt="Bitcoin" title="Bitcoin">
-                                    </div>
+                                        <div class="white_circle_skill">
+                                            <img src="assets/images/icons/bitcoin.png" alt="Bitcoin" title="Bitcoin" style="
+                                        margin-left: 3%;
+                                        ">
+                                        </div>
+                                        </div>
                                         
                                 </div>
                             
                                 <div class="responsive">
                                         <div class="gallery">
+                                        <div class="white_circle_skill">
                                                 <img src="assets/images/icons/ethereum.png" alt="Ethereum" title="Ethereum">
+                                        </div>
                                         </div>
                                             
                                     </div>
                                     <div class="responsive">
+                                    
                                             <div class="gallery">
-                                                    <img src="assets/images/icons/Solidity.png" alt="Solidity" title="Solidity">
+                                            <div class="white_circle_skill">
+                                                    <img src="assets/images/icons/Solidity.png" alt="Solidity" title="Solidity" style="
+                                                    width: 52%;
+                                                     height: 72%;
+                                                     margin-top: 12%;
+                                                    ">
+                                            </div>
                                             </div>
                                                 
                                      </div>
                                      <div class="responsive">
                                              <div class="gallery">
-                                                <img src="assets/images/icons/truffle.jpg" alt="Truffle" title="Truffle">
+                                             <div class="white_circle_skill">
+                                                <img src="assets/images/icons/truffle.png" alt="Truffle" title="Truffle" style="
+                                                 width: 89%;
+                                                height: 86%;
+                                                margin-top: 7%;
+                                                ">
+                                                </div>
                                             </div>
                                                     
                                     </div>
                                     <div class="responsive">
                                             <div class="gallery">
-                                                <img src="assets/images/icons/angular.png" alt="Angular Js" title="AngularJs">
+                                            <div class="white_circle_skill">
+                                                <img src="assets/images/icons/angular.png" alt="Angular Js" title="AngularJs" style="
+                                            width: 88%;
+                                             height: 92%;
+                                             margin-top: 3%;
+                                                ">
+                                                </div>
                                             </div>
                                                         
                                   </div>
                                     
                                     <div class="responsive">
                                             <div class="gallery">
+                                            <div class="white_circle_skill">
                                                 <img src="assets/images/icons/node.png" alt="Node Js" title="NodeJs">
-                                            </div>
-                                                            
-                                    </div>
-                                    <div class="responsive">
-                                            <div class="gallery">
-                                                <img src="assets/images/icons/hyperledger.png" alt="Hyperledger" title="Hyperledger">
+                                             </div>
                                             </div>
                                                             
                                     </div>
                                     
                                     <div class="responsive">
                                             <div class="gallery">
-                                                <img src="assets/images/icons/monax.png" alt="Monax" title="Monax">
+                                            <div class="white_circle_skill">
+                                                <img src="assets/images/icons/hyperledger.png" alt="Hyperledger" title="Hyperledger" style="
+                                                 width: 80%;
+                                                height: 80%;
+                                                margin-top: 10%;
+                                                margin-left: 7%;
+                                                ">
+                                             </div>
+                                            </div>
+                                                            
+                                    </div>
+                                    
+                                    <div class="responsive">
+                                            <div class="gallery">
+                                            <div class="white_circle_skill">
+                                                <img src="assets/images/icons/monax.png" alt="Monax" title="Monax" style="
+                                                width: 68%;
+                                                height: 26%;
+                                                margin-top: 33%;
+                                                ">
+                                             </div>   
                                             </div>
                                                             
                                     </div>
                                     <div class="responsive">
                                             <div class="gallery">
-                                                <img src="assets/images/icons/mongodb.jpg" alt="Mongodb" title="Mongodb">
+                                            <div class="white_circle_skill">
+                                                <img src="assets/images/icons/mongo.png" alt="Mongodb" title="Mongodb" style="
+                                                  width: 73%;
+                                                height: 82%;
+                                                 margin-top: 11%;
+                                                    ">
+                                                </div>
                                             </div>
                                                             
                                     </div>
                                     <div class="responsive">
                                             <div class="gallery">
-                                                <img src="assets/images/icons/sql.jpg" alt="SQLdb" title="SQLdb">
+                                            <div class="white_circle_skill">
+                                                <img src="assets/images/icons/sql.png" alt="SQLdb" title="SQLdb" style="
+                                                 width: 66%;
+                                                height: 77%;
+                                                margin-top: 12%;
+                                                ">
+                                                </div>
                                             </div>
                                                             
                                     </div>
                                     <div class="responsive">
                                             <div class="gallery">
-                                                <img src="assets/images/icons/postsql.png" alt="Postgresql" title="Postgresql" >
+                                            <div class="white_circle_skill">
+                                                <img src="assets/images/icons/postsql.png" alt="Postgresql" title="Postgresql" style="
+                                                width: 67%;
+                                                 height: 68%;
+                                                 margin-top: 16%;
+                                                    ">
+                                            </div>
                                             </div>
                                                             
                                     </div>
                                     <div class="responsive">
                                             <div class="gallery">
-                                                <img src="assets/images/icons/ipfs.png" alt="IPFS" title="IPFS">
+                                            <div class="white_circle_skill">
+                                                <img src="assets/images/icons/ipfs.png" alt="IPFS" title="IPFS" style="
+                                                 width: 74%;
+                                                height: 79%;
+                                                margin-top: 12%;
+                                                margin-left: 4%;
+                                                ">
+                                                </div>
                                             </div>
                                                             
                                     </div>
@@ -495,7 +583,7 @@
                      <div class="row">
                          <div class="main_impress text-center">
                              <div class="col-sm-8 col-sm-offset-2">
-                                 <h2 class="text-uppercase"><font color="#32C9DD">Impressed?  Let’s work together</font></h2>
+                                 <h2 class="text-uppercase"><font color="#fff">Impressed?  Let’s work together</font></h2>
                                  <!--<p class="m-top-40">At vero eos et accusamus et iusto odio dignissimos ducimus qui ditqs praesentium 
                                      voluptatum deleniti atque corrupti quos dolores et quas molestias</p>-->
  
@@ -592,7 +680,7 @@
                             <div class="col-md-4">
                                 <div class="rage_widget">
                                     <div class="widget_head">
-                                        <h3 class="text-black"><font color="#32C9DD">SecureBlocks</font></h3>
+                                        <h3 class="text-black"><font color="#fff">SecureBlocks</font></h3>
                                         <div class="separator_small"></div>
                                     </div>
                                     <p align='justify'>SecureBlocks is a blockchain venture of SecureLabs India Pvt. Ltd.. At SecureBlocks, we offer secure and comprehensive blockchain solutions along with the products which would help end users to adapt the blockchain easily. Along with this, we regularly explore the updates related to blockchain and share it with the willing ones.
@@ -659,11 +747,13 @@
                     <div class="row">
                         <div class="main_footer text-center p-top-40 p-bottom-30">
                             <p class="fadeInRight" data-wow-duration="1s">
+                               
                                 Copyright 
                                 <i class="fa fa-copyright"></i>
                                 2017 
                                 
                                 SecureBlocks. All Rights Reserved.
+                                
                             </p>
                         </div>
                     </div>

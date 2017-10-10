@@ -139,9 +139,9 @@ section { overflow: hidden; }*/
 }
 .bg-primary{background-color: #1E8BC3;}
 .bg-finence{background-color:#13A0B2;}
-.bg-mega{background-color:#000;}
+.bg-mega{background-color:#023059;}
 .bg-grey{background-color: #f5f5f5;}
-.bg-black{background-color: #212121;}
+.bg-black{background-color: #000;}
 .bg-white{background-color: #fff;}
 
 img {
@@ -238,8 +238,8 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
 h1
 {
     margin: 0;
-    font-family: 'Montserrat', sans-serif;
-    color:#32C9DD;
+    font-family: 'Bahiana', cursive;
+    color:#023059;
     margin-bottom: 10px;
 }
 h2,
@@ -379,19 +379,19 @@ Separator
     width:85px;
     height:2px;
     margin:20px 0px;
-    background: #EB6935;
+    background: #000;
 }
 .separator_auto{
     width:85px;
     height:2px;
     margin:20px auto;
-    background: #EB6935;
+    background: #000;
 }
 .separator_small{
     width:30px;
     height:2px;
     margin:20px 0px;
-    background: #EB6935;
+    background: #000;
 }
 
 /*
@@ -400,10 +400,13 @@ Icons
 
 div.gallery img {
     width: 106px;
-    height: 85px;
+    height: 90px;
+   
+    
+    
 }
 .responsive {
-    padding: 0 20px 60px 40px;
+    padding: 0 20px 97px 40px;
     float: left;
     width: 14%;
     margin-left: 2%;
@@ -456,16 +459,16 @@ Button
 }
 
 .btn-primary{
-    color: #050404;
-    background-color:#EB6935;
-    border:1px solid;
-    border-color: #EB6935;
+    color: #fff;
+    background-color:#023059;
+    border:2px solid;
+    border-color: #fff;
     padding: 1rem 2rem;
 }
 .btn-primary:hover{
-    background-color: #0E0808;
-    border-color: #eee;
-    color:#32C9DD;
+    background-color: #fff;
+    border-color: #fff;
+    color:#023059;
 }
 
 .btn-success{}
@@ -1067,15 +1070,43 @@ Nav Menu style
     background-color: #ff7854 !important;
 }
 
+/*
+Logo style
+==================*/
+.logo-display{
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 150%;
+    color: #023059;
+    margin-left: -37%;
+    margin-top: 8%;
+
+}
+.logo-scrolled{
+    
+    font-family: 'Montserrat', sans-serif;
+        font-size: 150%;
+        color: #fff;
+        margin-left: -37%;
+        margin-top: 8%;
+    
+    }
+    @media only screen and (max-width: 700px) {
+        .logo-scrolled {
+            margin-left: -194%;
+            margin-top: 0%;
+            font-size: 109%;
+        }
+      }
 
 /*
 Home Section style
 ==================*/
 #hello{
    /* background: url(../images/background/header.jpg) no-repeat bottom center;*/    
-   background: rgb(8, 10, 10) no-repeat bottom center;
+   background:#fff no-repeat bottom center;
     font-family: 'Montserrat', sans-serif;
-    color: #fff;
+    color: #000;
     line-height: 1.3;
     -webkit-font-smoothing: antialiased;
     width: 100%;
@@ -1083,7 +1114,7 @@ Home Section style
     overflow: hidden;
     margin: 0;
     padding: 0;
-    border: 0;
+    border: 0;  
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
@@ -1108,12 +1139,14 @@ Home Section style
     padding: 0;
     border: 0;
     font-size: 700%;
+    
     font: inherit;
     vertical-align: baseline;
     font-size: 85px;
     font-weight: 700;
     letter-spacing: 0.015em;
     position: relative;
+    /*font-family: 'Graduate', cursive;*/
 
 }
 #hello h1::after {
@@ -1132,7 +1165,7 @@ Home Section style
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
-    margin: 0px 28px 38px -11px;
+    margin: -33px 28px 38px -11px;
     font-size: 47px;
     position: relative;
   }
@@ -1165,7 +1198,7 @@ Home Section style
   }
   @media only screen and (max-width: 700px) {
     #hello {
-        background: rgb(8, 10, 10) no-repeat bottom center;
+        background: #fff no-repeat bottom center;
         font-family: 'Montserrat', sans-serif;
         color: #fff;
         line-height: 1.3;
@@ -1226,6 +1259,9 @@ Home Section style
 /*
 About section style
 ====================*/
+#about{
+    background-color: #f7f7f7;
+}
 .main_about{
     display: table;
     width:100%;
@@ -1269,7 +1305,7 @@ FAQ Page
 .faq_main_content h6{
     margin-bottom: 0rem;
     border: 1px solid;
-    border-color:#eee;
+    border-color:#8a8787;
     position: relative;
 }
 
@@ -1289,7 +1325,7 @@ FAQ Page
     height: 285px;
     border:1px solid;
     border-top:0;
-    border-color: #eee;
+    border-color: #8a8787;
 }
 
 .faq_main_content h6 a{
@@ -1439,7 +1475,7 @@ Featured section style
 service section style
 ========================*/
 .service{
-    background-color: #184B43;
+    background-color: #023059;
     background-size: cover;
     position: relative;
 }
@@ -1469,13 +1505,13 @@ service section style
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     font-size:2rem;
-    color:#32C9DD;
+    color:#fff;
     align:justify;
 }
 .service_item p{
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
-    font-size:1rem;
+    font-size:1.1rem;
     color:#fff;
     text-align:justify;
 }
@@ -1484,6 +1520,19 @@ service section style
     width: 26%;
    
     
+}
+.white_circle img{
+    background-color: #fff;
+    width:130px;
+    height: 130px;
+    line-height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    transition: all 0.4s;
 }
 @media only screen and (max-width: 700px){
     .service_item img {
@@ -1541,7 +1590,7 @@ Impress section style
 ========================*/
 
 .impress{
-    background-color: #000000;
+    background-color: #023059;
     background-size: cover;
     position: relative;
 }
@@ -1675,6 +1724,25 @@ Skill Section style
 .skill_bottom_content{}
 .skill_bottom_item .separator_small{
     margin: 20px auto;
+}
+
+.white_circle_skill{
+    background-color: #C0BDBD;
+    width:100px;
+    height: 90px;
+    line-height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.white_circle_skill:hover{
+    background-color: #368CCB;
+   
+    
 }
 
 
@@ -1921,13 +1989,13 @@ Contact Section style
 
 .widget_socail{}
 .widget_socail ul li a i{
-    background-color: #EB6935;
+    background-color: #fff;
     width:40px;
     height: 40px;
     line-height: 40px;
     border-radius: 50%;
     text-align: center;
-    color:#fff;
+    color:#000;
     -webkit-transition: all 0.4s;
     -moz-transition: all 0.4s;
     -o-transition: all 0.4s;
@@ -1935,7 +2003,8 @@ Contact Section style
     transition: all 0.4s;
 }
 .widget_socail ul li a:hover i{
-    background-color: #32C9DD;
+    background-color: #000;
+    color:#fff;
 }
 
 
