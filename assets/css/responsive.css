@@ -51,11 +51,22 @@ Author URI: http://www.xpeedstudio.com
 /* Landscape phones and portrait tablets */
 @media  (max-width: 768px) {
     h2{
-        font-size:2rem;
+        font-size:1.7rem;
     }
     p{
         font-size:90%;
         line-height: 2rem;
+       
+    }
+    .main_impress h2 {
+        font-size: 1.7rem;
+    }
+    .white_circle_skill {
+        width: 84px;
+        height: 84px;
+    }
+    .head_title h2 {
+        font-size: 1.7rem;
     }
     .xs-pull-none{
         float: none !important;
@@ -73,9 +84,15 @@ Author URI: http://www.xpeedstudio.com
         margin-bottom:20px;
     }
     .main_testimonial .testimonial_slid .slick-arrow.nextprevright {
-        top: -250px;
+        margin-top: -38%;
+        border:0px;
     }
-
+    .main_testimonial .testimonial_slid .slick-arrow.nextprevleft {
+        margin-top: 20%;
+        border:0px;
+        width: 10px;
+        margin-left: 3%;
+    }
 
 }
 

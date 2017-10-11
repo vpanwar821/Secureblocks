@@ -10,7 +10,7 @@
         <title>SecureBlocks</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="icon" type="image/png" href="favicon.ico">
+       <!-- <link rel="icon" type="image/png" href="favicon.ico">-->
 
         <!--Google Font link-->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
@@ -19,8 +19,8 @@
         <link href="https://fonts.googleapis.com/css?family=Rye" rel="stylesheet">
         
         <link href="https://fonts.googleapis.com/css?family=Black+Ops+One|Graduate|Rye" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Alice|Bahiana:400,700" rel="stylesheet">
-
+        <link href="https://fonts.googleapis.com/css?family=Abel|Alice" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Coda|Electrolize|Expletus+Sans|Gruppo|Iceberg|Jura|Marvel|Offside|Quantico|Saira" rel="stylesheet">
 
         <link rel="stylesheet" href="assets/css/slick.css">
         <link rel="stylesheet" href="assets/css/slick-theme.css">
@@ -147,7 +147,9 @@
             
                        
                                   
-                            <h1>SecureBlocks</h1>
+                            <h1 style="
+    font-family: 'Electrolize', sans-serif;
+">SecureBlocks</h1>
                                
                             
                                
@@ -286,11 +288,11 @@
                             <div class="col-md-4">
                                 <div class="service_item">
                                 <div class="white_circle">
-                                       
-                                                    <img src="assets/images/icons/ico.png" style="
-                                                    width: 30%;
-                                                ">
-                                </div>
+                                    <div class="consult">
+                                        <img src="assets/images/icons/ico.png">
+                                    </div>
+                                    </div>
+                                    
                                     <div class="ico">
                                     <h6 class="m-top-10">ICO</h6>
                                     </div>  
@@ -298,30 +300,31 @@
                                     margin-top: 20px;
                                     
                                 " ></div>
-                                    <p>End-to-end ICO consulting and development.</p>
+                                    <p>Secureblocks provide end-to-end ICO consulting and development.</p>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="service_item">
-                                    <div class="altcoin">
+                                    
                                     <div class="white_circle">
-                                        <img src="assets/images/icons/altcoin.png" style="
-                                        margin-left: 0.1%;
-                                    ">
-                                    </div>
+                                    <div class="consult">
+                                            <img src="assets/images/icons/altcoin.png">
+                                        </div>
                                     </div>
                                     <h6 class="m-top-20">Altcoin Development</h6>
                                     <div class="separator_small"></div>
                                     
-                                    <p>Creation of alternative cryptocurrencies with wallets Development.</p>
+                                    <p>Creation of alternative cryptocurrencies along with wallets Development.</p>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="service_item">
                                 <div class="white_circle">
+                                <div class="consult">
                                         <img src="assets/images/icons/enterprise.png" style="
-                                        padding: 0 0px 0px 7px;
-                                    ">
+                                     padding: 1%;
+                                        ">
+                                </div>
                                     </div>
                                     <h6 class="m-top-20" style="
                                     margin-right: -3px;
@@ -338,41 +341,51 @@
 
                             <div class="col-md-4">
                                 <div class="service_item">
-                                    <div class="erc">
+                                    
                                     <div class="white_circle">
+                                    <div class="consult">
+                                        <img src="assets/images/icons/erc.png">
+                                    </div>
+                                    <!--<div class="white_circle">
                                         <img src="assets/images/icons/erc.png" style="
                                         margin-left: 0.1%;
                                         margin-bottom: 3%;
                                         margin-top: 5%;
                                     ">
-                                    </div>
+                                    </div>-->
                                     </div>
                                     <div class="m-10">
-                                    <h6>ERC20 Token</h6>
+                                    <h6 style="
+                                    margin-top: 6%;
+                                    ">ERC20 Token</h6>
                                     </div>
                                     <div class="separator_small"></div>
-                                    <p>Ethereum token development as per the ERC standards.</p>
+                                    <p>Ethereum token development as per the multiple ERC standards.</p>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="service_item">
-                                    <div class="smart">
-                                        <div class="white_circle">
-                                        <img src="assets/images/icons/smart.png">
+                                    
+                                    <div class="white_circle">
+                                    <div class="consult">
+                                            <img src="assets/images/icons/smart.png" style="
+                                          padding: 0%;
+                                            ">
                                         </div>
                                     </div>
                                     <div class="m-10">
                                     <h6 class="m-top-20">Smart Contract</h6>
                                     </div>
                                     <div class="separator_small"></div>
-                                    <p>Smart contract development as per the use case requirement.</p>
+                                    <p>We specialize in smart contract development as per the use case requirement.</p>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="service_item">
                                     <div class="white_circle">
-                                
+                                        <div class="consult">
                                         <img src="assets/images/icons/consulting.png">
+                                        </div>
                                     </div>
                                 <div class="m-10">
                             
@@ -399,7 +412,7 @@
             
 
             <!--Skill Sections-->
-            <section id="skill" class="skill roomy-100">
+            <section id="skill" class="skill roomy-130">
                 <div class="container">
                     <div class="row">
                         <div class="main_skill">
@@ -609,7 +622,9 @@
                                 <h2>Frequently Asked Questions</h2>
                                 <div class="separator_auto"></div>
                             </div>
-                            <div class="testimonial_slid text-center">
+                            <div class="testimonial_slid text-center" style="
+                             margin-top: -1%;
+                            ">
                                 <div class="testimonial_item">
                                     <div class="col-sm-10 col-sm-offset-1">
                                         <p><font color="black"><b>What is Blockchain?</b> 
@@ -683,7 +698,8 @@
                                         <h3 class="text-black"><font color="#fff">SecureBlocks</font></h3>
                                         <div class="separator_small"></div>
                                     </div>
-                                    <p align='justify'>SecureBlocks is a blockchain venture of SecureLabs India Pvt. Ltd.. At SecureBlocks, we offer secure and comprehensive blockchain solutions along with the products which would help end users to adapt the blockchain easily. Along with this, we regularly explore the updates related to blockchain and share it with the willing ones.
+                                    <p align='justify'>SecureBlocks is a blockchain venture of SecureLabs India Pvt. Ltd.. At SecureBlocks, we offer secure and comprehensive blockchain solutions along with the products which would help end users to adapt the blockchain easily. 
+                                    <br/>
                                     <br/>
                                     Feel free to post any kind of queries/feedback.   </p>
 
@@ -800,23 +816,7 @@
             <!-- paradise slider js -->
 
 
-            <script src="http://maps.google.com/maps/api/js?key=AIzaSyD_tAQD36pKp9v4at5AnpGbvBUsLCOSJx8"></script>
-            <script src="assets/js/gmaps.min.js"></script>
-
-            <script>
-                            function showmap() {
-                                var mapOptions = {
-                                    zoom: 8,
-                                    scrollwheel: false,
-                                    center: new google.maps.LatLng(-34.397, 150.644),
-                                    mapTypeId: google.maps.MapTypeId.ROADMAP
-                                };
-                                var map = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
-                                $('.mapheight').css('height', '350');
-                                $('.maps_text h3').hide();
-                            }
-
-            </script>
+     
 
 
 
