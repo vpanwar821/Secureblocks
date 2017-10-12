@@ -232,7 +232,7 @@
                                         <div>
                                             <div class="content">
                                                 <p align="justify">At SecureBlocks, we are a team of dedicated blockchain developer and enthusiasts who love to work on blockchain. 
-                                                    We have expertise in various blockchain related technologies and regularly working to make additions in their technical quiver.
+                                                    We have expertise in various blockchain related technologies and are regularly working to make additions in their technical quiver.
                                                     </p>
                                             </div>
                                         </div> <!-- End off accordion item-2 -->
