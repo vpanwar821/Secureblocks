@@ -4,7 +4,7 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
     
-    <!--Designerd by: http://bootstrapthemes.co-->
+   
     <head>
         <meta charset="utf-8">
         <title>SecureBlocks</title>
@@ -698,7 +698,7 @@
                                         <h3 class="text-black"><font color="#fff">SecureBlocks</font></h3>
                                         <div class="separator_small"></div>
                                     </div>
-                                    <p align='justify'>SecureBlocks is an indian blockchain startup where we offer secure and comprehensive blockchain solutions along with the products which would help end users to adapt the blockchain easily. 
+                                    <p align='justify'>SecureBlocks is an Indian blockchain startup where we offer secure and comprehensive blockchain solutions along with the products which would help end users to adapt the blockchain easily. 
                                     <br/>
                                     <br/>
                                     Feel free to post any kind of queries/feedback.   </p>
