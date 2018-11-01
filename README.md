@@ -7,11 +7,6 @@ Secure Blocks
 
 2)login into heroku from cmd.
 
-$ heroku login
-
-email:vikaspanwar16@gmail.com
-psswrd:vicky@3434
-
 3)clone the repository 
 
 $ heroku git:clone -a secureblocks
